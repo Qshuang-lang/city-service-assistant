@@ -1,0 +1,34 @@
+# ========== 环境与密钥 ==========
+.env
+.env.local
+*.env
+!*.env.example
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# ========== 运行时产物 ==========
+logs/
+*.log
+nohup.out
+
+# ========== IDE / 系统 ==========
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ========== 数据库备份 ==========
+*.sql.bak
+sql/*_old_bak.sql
